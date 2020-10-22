@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web-Forms_Movimentos_Manuais", "Web-Forms_Movimentos_Manuais\Web-Forms_Movimentos_Manuais.csproj", "{56A76EB2-15B9-4128-AC6D-CDF7247FA18B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A76EB2-15B9-4128-AC6D-CDF7247FA18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A76EB2-15B9-4128-AC6D-CDF7247FA18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A76EB2-15B9-4128-AC6D-CDF7247FA18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A76EB2-15B9-4128-AC6D-CDF7247FA18B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAEF0222-B964-4DCB-99B3-E247B3FA986E}
+	EndGlobalSection
+EndGlobal
