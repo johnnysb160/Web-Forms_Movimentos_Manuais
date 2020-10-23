@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\relatorio.png" />
+    <Content Include="Content\Style.css" />
     <Content Include="View\Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
