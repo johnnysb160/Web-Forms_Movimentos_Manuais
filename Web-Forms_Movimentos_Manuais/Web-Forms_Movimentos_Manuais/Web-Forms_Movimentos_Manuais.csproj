@@ -53,6 +53,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -67,7 +68,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Artistic-Search.ico" />
+    <Content Include="Content\LogoSales.png" />
     <Content Include="Content\relatorio.png" />
+    <Content Include="Content\sales.ico" />
+    <Content Include="Content\search.ico" />
     <Content Include="Content\Style.css" />
     <Content Include="View\Index.aspx" />
     <Content Include="Web.config" />

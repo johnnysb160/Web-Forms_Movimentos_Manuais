@@ -24,6 +24,8 @@ namespace Web_Forms_Movimentos_Manuais.View
             {
                 CarregaCodCosif();
             }
+            //txtMes.Attributes.Add("onkeypress", "if (event.keyCode < 48 || event.keyCode > 57) {event.keyCode = 0;}");
+            btnBSair.Attributes.Add("onclick", "window.close();");
         }
 
         public void CarregaProdutos()
@@ -181,6 +183,11 @@ namespace Web_Forms_Movimentos_Manuais.View
                     e.Row.Attributes.Add("onmouseover", "this.style.backgroundColor='#dcdcdc'");
                     break;
             }
+        }
+
+        protected void btnBSair_Click(object sender, EventArgs e)
+        {
+            this.ClientScript.RegisterClientScriptBlock(this.GetType(), "Sair", "window.close()", true);
         }
     }
 }
